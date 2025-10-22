@@ -9,7 +9,9 @@ function sumArray(array) {
 }
 
 // Test for sum array
-let testArray = [1, 2, 3, 4, 5]; // 15
+let testArray1 = [1, 2, 3, 4, 5]; // 15
+let testArray2 = [2, 9, 100]; // 111
 
 // TODO: display the sum of the array in the console
-console.log(sumArray(testArray));
+console.log(sumArray(testArray1));
+console.log(sumArray(testArray2));
